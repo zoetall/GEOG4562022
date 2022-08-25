@@ -42,9 +42,6 @@ tr:nth-child(even) {
   var myNewCell2 = document.createElement('td');
   myNewCell1.innerText = blackpopchange.objects[i].AreaName;
   myNewCell2.innerText = blackpopchange.objects[i].PercentChange;
-
-if(blackpopchange.objects[i].PercentChange = 'value < 0') {myNewCell2.style.backgroundcolor = 'red'}
-
   myNewRow.append(myNewCell1)
   myNewRow.append(myNewCell2)
   x.append(myNewRow)
